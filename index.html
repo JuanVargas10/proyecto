@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="js/main.js">
+</head>
+<header>
+
+</header>
+<body>
+    <div class="container">
+        <div class="player">
+            <div class="player_controls">
+                <div class="player_btn player_btn--small">
+                    <i class="fas fa-arrow-left"></i>
+                </div>
+                <h5 class="player__title">playing now</h5>
+                <div class="player_btn player_btn--small">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div class="player__album">
+                <img 
+                src="/img/spotify.png" 
+                alt="album "
+                class="player__img">
+            </div>
+
+            <h2 class="player__artist">Disclosure</h2>
+            <h3 class="player__song">latch</h3>
+
+            <input type="range" value "20" min="0" class="player__level"/>
+
+            <div class="audio-duration">
+                <div class="start">00:01</div>
+                <div class="end">04:30</div>
+            </div>
+
+            <audio class="player__audio" controls id="audio">
+                <source src="/videos/y2mate.com - Avatar  Black Waltz.mp3">
+            </audio>
+        </div>
+    </div>
+</body>
+</html>
